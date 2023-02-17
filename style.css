@@ -1,0 +1,102 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+
+    background-color: black;
+}
+
+h1 h2 h3 h4 .h1 .h2 .h3 .h4 {
+    font-family: 'Lexend Mega', sans-serif;
+
+}
+
+/* Nav */
+.my-textnav {
+    font-family: 'Lexend Mega', sans-serif;
+    border: 1px solid white;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
+
+.my-customnav {
+    border-bottom: 2px solid white;
+    background-color: black;
+
+}
+
+/* Header */
+.masthead {
+
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(black 15%, transparent, black), url(./media/motor-2323142_960_720.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+:root {
+    --main-color: #086fce;
+    --accent-color: #021F4B;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.text-accent {
+    color: var(--accent-color);
+}
+
+.bg-main {
+    background: var(--main-color);
+}
+
+.bg-accent {
+    background-color: var(--accent-color);
+}
+
+.my-h1 {
+    background-color: rgba(0, 0, 0, 0.212);
+    filter: blur(1);
+}
+
+.my-icon {
+    font-size: 32px;
+}
+
+.my-bordecard {
+    border-bottom: 2px solid var(--main-color);
+}
+
+.my-btnstyle {
+    background:
+        linear-gradient(to right, var(--main-color) 2px, transparent 2px) 0 0,
+        linear-gradient(to right, var(--main-color) 2px, transparent 2px) 0 100%,
+        linear-gradient(to left, var(--main-color) 2px, transparent 2px) 100% 0,
+        linear-gradient(to left, var(--main-color) 2px, transparent 2px) 100% 100%,
+        linear-gradient(to bottom, var(--main-color) 2px, transparent 2px) 0 0,
+        linear-gradient(to bottom, var(--main-color) 2px, transparent 2px) 100% 0,
+        linear-gradient(to top, var(--main-color) 2px, transparent 2px) 0 100%,
+        linear-gradient(to top, var(--main-color) 2px, transparent 2px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+}
+
+button:hover {
+    transition: (to bottom 0.5s 1s);
+    background-color: rgba(100, 148, 237, 0.541);
+    font-size: 20px;
+}
+
+footer.my-footer {
+    background: url(./media/car-3075480_1920.jpg);
+    height: 70vh;
+}
+
+.my-iconfoot {
+    font-size: 26px;
+}
